@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>калькулятор</title>
+    <script src="main.js"></script>
+    <style type="text/css" src="style.css" rel="stylesheet"></style>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Калькулятор</h1>
+<form>
+    <p>Введите число a: <input type="text" required placeholder="например, 3" id="num1"></p>
+    <p>Введите число b: <input type="text" required placeholder="например, 5" id="num2"></p>
+    <hr>
+
+    <div style="width:50%">
+        <h3>Действие:</h3>
+        <ul>
+            <li><input type="radio" name="act" value="plus" checked>+</li>
+            <li><input type="radio" name="act" value="minus">-</li>
+            <li><input type="radio" name="act" value="mult">*</li>
+            <li><input type="radio" name="act" value="div">/</li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Изменение стилей:</h3>
+        <ul>
+            <li><input type="checkbox" name="textstyle">Сделать ответ красненьким</li>
+            <li><input type="checkbox" name="textstyle">Сделать ответ подчёркнутым</li>
+        </ul>
+    </div>
+
+    <hr>
+    <input type="button" value="Посчитать" name="btn" onclick="calculate()">
+</form>
+<p id="answer"></p>
+</body>
+</html>
