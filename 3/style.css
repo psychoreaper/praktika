@@ -1,0 +1,147 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 73px;
+    min-width: 1260px;
+    color: ivory;
+    background: firebrick;
+}
+
+.head-logo {
+    width: 1260px;
+    margin: 0 auto;
+    cursor: default;
+}
+
+.header h1{
+    margin: 10px 0;
+}
+
+.hl img {
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.hl {
+    float: left;
+    margin-left: 16px;
+}
+
+.head-logo input {
+    float: right;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.head-menu {
+    width: auto;
+    margin: 73px 0 auto;
+    background-color: #d22d2e;
+    text-align: center;
+}
+
+.head-menu .inner {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.hm-item {
+    display: inline-block;
+    padding: 16px;
+}
+
+.hm-item:hover {
+    background-color: #d24140;
+}
+
+.hm-item a, .nav-item a {
+    text-decoration: none;
+    color: ivory;
+}
+
+.intro {
+    position: absolute;
+    top: 124px;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 550px;
+    min-width: 1260px;
+    color: ivory;
+    background: no-repeat url(img/int.jpg) center;
+    padding: 16px 0;
+}
+
+.intro-inner{
+    margin: 0 auto;
+    width: 1260px;
+}
+
+.intro-left{
+    width: 30%;
+    float: left;
+    display: inline-block;
+}
+
+.intro-right {
+    width: 50%;
+    float: right;
+    height: 400px;
+    padding: 50px;
+    display: inline-block;
+    margin: auto 30px;
+}
+
+.intro .brand {
+    padding: 40px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.intro .info {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgba(220, 200, 240, 0.3);
+    border-radius: 10px;
+}
+
+.intro .info p {
+    margin: 0;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: block;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+}
+
+.nav-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-item:hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.content{
+    position: absolute;
+    top: 710px;
+    left: 0;
+}
