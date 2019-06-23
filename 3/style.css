@@ -21,7 +21,7 @@ body {
 }
 
 .header h1{
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .hl img {
@@ -105,6 +105,7 @@ body {
     padding: 40px;
     text-align: center;
     font-size: 70px;
+    text-shadow: -2px -2px 2px rgba(255,255,255,0.2), 2px 2px 2px rgba(255,255,255,0.2), 1px 1px 1px rgba(0,0,0,0.7);
 }
 
 .intro .info {
@@ -142,6 +143,81 @@ body {
 
 .content{
     position: absolute;
-    top: 710px;
+    top: 706px;
     left: 0;
+    min-width: 1260px;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.content-inner {
+    width: 1260px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.con-item {
+    position: relative;
+    width: 350px;
+    height: 180px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.4);
+
+    display: inline-block;
+    margin: 15px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ci-top {
+    background-color: rgba(225, 69, 69, 0.55);
+}
+
+.ci-bottom {
+    background-color: rgba(225, 69, 69, 0.45);
+}
+
+.con-item img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.con-item:hover{
+    box-shadow: 0 3px 2px rgba(0,0,0,0.4);
+    background-color: rgba(225, 69, 69, 0.35);
+}
+
+.con-item h3{
+    margin: 0;
+}
+
+.footer {
+    position: absolute;
+    top: 1330px;
+    left: 0;
+    border-top: 20px solid firebrick;
+    background-color: #560808;
+    color: ivory;
+    width: 100%;
+}
+
+.footer-inner {
+    width: 1260px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.footer-inner a {
+    text-decoration: none;
+    color: ivory;
+}
+
+.footer-inner ul{
+    list-style-type: none;
 }
