@@ -1,0 +1,122 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 73px;
+    color: ivory;
+    background: firebrick;
+}
+
+.head-menu {
+    width: auto;
+    margin: 73px 0 auto;
+    background-color: #d22d2e;
+    text-align: center;
+}
+
+.header h1{
+    margin: 15px 0;
+}
+
+.hl img {
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.hl {
+    float: left;
+    margin-left: 16px;
+}
+
+.hm-item:hover {
+    background-color: #d24140;
+}
+
+.hm-item a {
+    text-decoration: none;
+    color: ivory;
+}
+
+.head-logo input {
+    float: right;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.hm-item {
+    display: inline-block;
+    padding: 16px;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    top: 123px;
+    height: 400px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.content-inner {
+
+    border: 1px solid silver;
+    border-radius: 10px;
+    box-shadow: 0 10px 7px rgba(0,0,0,0.5);
+}
+
+.content-inner img{
+
+    width: 200px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid silver;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.4);
+}
+
+.content-inner h1 {
+    margin: 0;
+    font-weight: bolder;
+    height: 40px;
+}
+
+.content-inner h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.personal, .projects {
+    margin-top: 30px;
+
+    vertical-align: top;
+    box-shadow: 0 5px 3px rgba(0,0,0,0.4);
+    border: 1px solid silver;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.personal {
+    width: 200px;
+
+}
+
+.projects {
+    margin-left: 30px;
+    width: 400px;
+
+}
+
+.personal ul, .projects ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
